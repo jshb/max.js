@@ -26,17 +26,40 @@
 		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		background-image:url('./img/head_panel.png');
 		background-repeat:repeat-x;
+		color:#333;
 	}
 	
 	.container p {
-		color: #fff;
 		line-height: 100px;
-		background: #000;
 		text-align: center;
-		margin: 20px 0 0 0;
+		margin: 90px 0 0 0;
 	}
-	
+	.blurb {
+		text-align:center;
+		color:#666;
+		margin:82px 42px 82px 42px;
+	}
+	.download {
+		border:solid #0F0 2px;
+		outline:solid #FF0 1px;
+		background-color:#222;
+		color:#FFF;
+		display:inline;
+		padding:25px 30px 25px 30px;
+		font-weight:normal;		
+		font-size:1.5em;
+		text-decoration:none;
+	}
+	.download:hover {
+		background-color:#000;
+		border:2px solid #000;
+		outline:2px solid #F0F;
+		cursor:pointer;
 
+	}
+	h3 {
+		margin:0 0 20px 0;
+	}
 	
 	</style>
 
@@ -51,23 +74,17 @@
 	</div>
 </div>
 
-
-<div class="container">
-	<div class="row">
-		<div class="twelvecol last">
-			</p>Something on this row.<p>
-		</div>
-	</div>
-</div>
-
-
 <div class="container">
 	<div class="row">
 		<div class="eightcol">
-			<h2>Short blurb about what this is and why it's so shitey. Short blurb about what this is and why it's so shitey. Short blurb about what this is and why it's so shitey. </h2>
+			<h2 class="blurb">
+				Maxification (also maximisation or maximization) is the process of adding unnecessary characters to source code, without changing its functionality.
+			</h2>
 		</div>
 		<div class="fourcol last">
-			<h1>Big Download Button</h1>
+			<p>
+				<span class="download">&#9660; Download max.js</span>
+			<p>
 		</div>
 	</div>
 </div>
