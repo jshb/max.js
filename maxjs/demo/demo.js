@@ -4,11 +4,8 @@ var totalTests = 9;
 
 $(function(){
 	
-	maximiseURL("tests/test016.js", testResult);
-	/*
-	var max = new maxjs();
-	var output = maxjs.maximise("ff");
-	*/
+	maximiseURL("tests/test017.js", testResult);
+	
 });
 
 function maximiseURL(url, callback) {
@@ -25,13 +22,6 @@ function maximiseURL(url, callback) {
 			console.log("error_no_response");
 		}
 	});
-	/*
-	result = 0;
-	
-	eval();
-	
-	return result; 
-	*/
 }
 
 function testResult(data) {
